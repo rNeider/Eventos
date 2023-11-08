@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(30, 247, 138);
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+.titulo{
+    font-size: 47px;
+    padding: 30px;
+    color: white;
+}
+.formulario{
+    background-color: white;
+    border-radius: 10px;
+    margin-top: 0.2rem;
+    width: 400px;
+    height: 230px;
+    box-shadow: 0 0 10px rgb(15, 163, 2) 0 0 20px rgb(15, 163, 2), 0 0 30px rgb(15, 163, 2), 0 0 40px rgb(15, 163, 2),0 0 10px rgb(15, 163, 2), 0 0 20px rgb(15, 163, 2);
+}
+.nombreEvento{
+    overflow: hidden;
+    width:75px;
+    position: relative;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    margin-right: 0.8rem;
+    margin-left: 0.8rem;
+    margin-top: 1.5rem;
+}
+.fechaEvento{
+    position: relative;
+    width:100px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    margin-top: 1.5rem;
+}
+.eliminar{
+    width: 80px;
+    position: relative;
+    right: -0.8rem;
+    background-color: rgb(40, 245, 40);
+    border: none;
+    height: 50px;
+    border-radius: 6px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 0.5rem;
+}
+#agregar{
+    height: 50px;
+    background-color:rgb(30, 247, 138);
+    border: none;
+    background-color: rgb(30, 247, 138);
+    color:white;
+    font-size: 15px;
+    cursor: pointer;
+}
+.listaEventos{
+    margin-top: 1rem;
+    width: 600px;
+    height: auto;
+    padding: 10px;
+    background-color:white;
+    position: relative;
+    left: -5rem;
+    display: flex;
+    justify-content: center;  
+    flex-direction: column;
+    border-radius: 10px;  
+}
+.evento{
+    display: flex;
+    margin-top: 10px;
+    background-color: rgb(255, 255, 255);
+    width: 402px;
+    height: 80px;  
+    border-radius: 15px;
+    border: 2px solid rgb(30, 204, 247);
+
+}
+.dias {
+    margin-top: 0.7rem;
+    background-color: rgb(255, 255, 255);
+    width: 100px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+    position: relative;
+}
+
+.diasFaltantes {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 25px;
+    color: green;
+    margin-left: 39px;
+    position: absolute;
+    top: -5px; 
+    left: 0;
+}
+
+.texto {
+    text-align: center;
+    width: 50px;
+    position: absolute;
+    bottom: 5px; 
+    left: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 13px;
+}
+.eliminar:hover{
+    cursor: pointer;
+    background-color: red;
+    font-family: Arial, Helvetica, sans-serif;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+input{
+    width: 320px;
+    height: 30px;
+    padding: 0.5rem;
+    margin-top: 1rem;
+    border: 2px solid rgb(14, 99, 236);
+    border-radius: 1rem;
+    background-color: white;
+}
